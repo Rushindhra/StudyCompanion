@@ -1,0 +1,35 @@
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.card-hover {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.row + .row {
+  margin-top: 30px;
+}
+body {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230715/pngtree-immersive-digital-learning-3d-mobile-technology-for-online-education-image_3857123.jpg'); 
+  background-size: cover; 
+  background-position: center center; 
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh; 
+  background-color: transparent; 
+}
+
+
+
